@@ -1,0 +1,915 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:206 (message)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      The target system is: Windows - 10.0.22631 - AMD64
+      The host system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe 
+      Build flags: /nologo;/DWIN32;/D_WINDOWS;/W3;/utf-8;/MP
+      Id flags:  
+      
+      The output was:
+      0
+      CMakeCCompilerId.c
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/3.27.1/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1158 (message)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Note: including file: C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe 
+      Build flags: /nologo;/DWIN32;/D_WINDOWS;/W3;/utf-8;/GR;/EHsc;/MP
+      Id flags:  
+      
+      The output was:
+      0
+      CMakeCXXCompilerId.cpp
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/3.27.1/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1158 (message)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Note: including file: C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:11 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-ig6u4m"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-ig6u4m"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-ig6u4m'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_cc1d6
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_cc1d6.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_cc1d6.dir\\ /FS -c C:\\Users\\Deega\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\Deega\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_cc1d6.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_cc1d6.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_cc1d6.exe /implib:cmTC_cc1d6.lib /pdb:cmTC_cc1d6.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:11 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-cng56u"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-cng56u"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-cng56u'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_708b4
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_708b4.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_708b4.dir\\ /FS -c C:\\Users\\Deega\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp
+        [2/2] cmd.exe /C "cd . && C:\\Users\\Deega\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_708b4.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_708b4.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_708b4.exe /implib:cmTC_708b4.lib /pdb:cmTC_708b4.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/UseSystemExtensions.cmake:3 (check_c_source_compiles)"
+      - "CMakeLists.txt:51 (include)"
+    checks:
+      - "Performing Test DODEFINE_FORTIFY_SOURCE"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-hi29wa"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-hi29wa"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/src/a836a4011a-419595447f.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "DODEFINE_FORTIFY_SOURCE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-hi29wa'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_16340
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo -DDODEFINE_FORTIFY_SOURCE  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_16340.dir\\src.c.obj /FdCMakeFiles\\cmTC_16340.dir\\ /FS -c C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-hi29wa\\src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\Deega\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_16340.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_16340.dir\\src.c.obj  /out:cmTC_16340.exe /implib:cmTC_16340.lib /pdb:cmTC_16340.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/UseSystemExtensions.cmake:13 (check_c_source_compiles)"
+      - "CMakeLists.txt:51 (include)"
+    checks:
+      - "Performing Test HAVE_MBSTATE"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-nvxb9r"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-nvxb9r"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/src/a836a4011a-419595447f.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_MBSTATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-nvxb9r'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_f4c27
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_MBSTATE  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_f4c27.dir\\src.c.obj /FdCMakeFiles\\cmTC_f4c27.dir\\ /FS -c C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-nvxb9r\\src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\Deega\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_f4c27.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_f4c27.dir\\src.c.obj  /out:cmTC_f4c27.exe /implib:cmTC_f4c27.lib /pdb:cmTC_f4c27.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/UseSystemExtensions.cmake:26 (check_c_source_compiles)"
+      - "CMakeLists.txt:51 (include)"
+    checks:
+      - "Performing Test DODEFINE_EXTENSIONS"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-3og9a8"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-3og9a8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/src/a836a4011a-419595447f.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "DODEFINE_EXTENSIONS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-3og9a8'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_71dca
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo -DDODEFINE_EXTENSIONS  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_71dca.dir\\src.c.obj /FdCMakeFiles\\cmTC_71dca.dir\\ /FS -c C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-3og9a8\\src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\Deega\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_71dca.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_71dca.dir\\src.c.obj  /out:cmTC_71dca.exe /implib:cmTC_71dca.lib /pdb:cmTC_71dca.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:54 (check_include_file)"
+    checks:
+      - "Looking for byteswap.h"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-z0elg4"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-z0elg4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/src/a836a4011a-419595447f.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_BYTESWAP_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-z0elg4'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_1c09c
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_1c09c.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_1c09c.dir\\ /FS -c C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-z0elg4\\CheckIncludeFile.c
+        FAILED: CMakeFiles/cmTC_1c09c.dir/CheckIncludeFile.c.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_1c09c.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_1c09c.dir\\ /FS -c C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-z0elg4\\CheckIncludeFile.c
+        C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-z0elg4\\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'byteswap.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:55 (check_include_file)"
+    checks:
+      - "Looking for inttypes.h"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-pch7gn"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-pch7gn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/src/a836a4011a-419595447f.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_INTTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-pch7gn'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_dcf72
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_dcf72.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_dcf72.dir\\ /FS -c C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-pch7gn\\CheckIncludeFile.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\Deega\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_dcf72.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_dcf72.dir\\CheckIncludeFile.c.obj  /out:cmTC_dcf72.exe /implib:cmTC_dcf72.lib /pdb:cmTC_dcf72.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:56 (check_include_file)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-rupfky"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-rupfky"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/src/a836a4011a-419595447f.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-rupfky'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_02942
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_02942.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_02942.dir\\ /FS -c C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-rupfky\\CheckIncludeFile.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\Deega\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_02942.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_02942.dir\\CheckIncludeFile.c.obj  /out:cmTC_02942.exe /implib:cmTC_02942.lib /pdb:cmTC_02942.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:58 (check_include_file)"
+    checks:
+      - "Looking for intrin.h"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-2y0jwm"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-2y0jwm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/src/a836a4011a-419595447f.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "FLAC__HAS_X86INTRIN"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-2y0jwm'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_ed3f9
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_ed3f9.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_ed3f9.dir\\ /FS -c C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-2y0jwm\\CheckIncludeFile.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\Deega\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_ed3f9.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ed3f9.dir\\CheckIncludeFile.c.obj  /out:cmTC_ed3f9.exe /implib:cmTC_ed3f9.lib /pdb:cmTC_ed3f9.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:63 (check_function_exists)"
+    checks:
+      - "Looking for fseeko"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-tlh57p"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-tlh57p"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/src/a836a4011a-419595447f.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_FSEEKO"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-tlh57p'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_21229
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  -DCHECK_FUNCTION_EXISTS=fseeko /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_21229.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_21229.dir\\ /FS -c C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-tlh57p\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\Deega\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_21229.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_21229.dir\\CheckFunctionExists.c.obj  /out:cmTC_21229.exe /implib:cmTC_21229.lib /pdb:cmTC_21229.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_21229.exe 
+        cmd.exe /C "cd . && C:\\Users\\Deega\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_21229.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_21229.dir\\CheckFunctionExists.c.obj  /out:cmTC_21229.exe /implib:cmTC_21229.lib /pdb:cmTC_21229.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_21229.dir\\CheckFunctionExists.c.obj /out:cmTC_21229.exe /implib:cmTC_21229.lib /pdb:cmTC_21229.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_21229.dir/intermediate.manifest CMakeFiles\\cmTC_21229.dir/manifest.res" failed (exit code 1120) with the following output:
+        CheckFunctionExists.c.obj : error LNK2019: unresolved external symbol fseeko referenced in function main\x0d
+        cmTC_21229.exe : fatal error LNK1120: 1 unresolved externals\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:65 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_BSWAP16"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-iks762"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-iks762"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/src/a836a4011a-419595447f.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_BSWAP16"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-iks762'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_d57fb
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_BSWAP16  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d57fb.dir\\src.c.obj /FdCMakeFiles\\cmTC_d57fb.dir\\ /FS -c C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-iks762\\src.c
+        C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-iks762\\src.c(1): warning C4013: '__builtin_bswap16' undefined; assuming extern returning int
+        [2/2] cmd.exe /C "cd . && C:\\Users\\Deega\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_d57fb.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d57fb.dir\\src.c.obj  /out:cmTC_d57fb.exe /implib:cmTC_d57fb.lib /pdb:cmTC_d57fb.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_d57fb.exe 
+        cmd.exe /C "cd . && C:\\Users\\Deega\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_d57fb.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d57fb.dir\\src.c.obj  /out:cmTC_d57fb.exe /implib:cmTC_d57fb.lib /pdb:cmTC_d57fb.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d57fb.dir\\src.c.obj /out:cmTC_d57fb.exe /implib:cmTC_d57fb.lib /pdb:cmTC_d57fb.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_d57fb.dir/intermediate.manifest CMakeFiles\\cmTC_d57fb.dir/manifest.res" failed (exit code 1120) with the following output:
+        src.c.obj : error LNK2019: unresolved external symbol __builtin_bswap16 referenced in function main\x0d
+        cmTC_d57fb.exe : fatal error LNK1120: 1 unresolved externals\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:66 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_BSWAP32"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-01d8m7"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-01d8m7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/src/a836a4011a-419595447f.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_BSWAP32"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-01d8m7'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_49b24
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_BSWAP32  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_49b24.dir\\src.c.obj /FdCMakeFiles\\cmTC_49b24.dir\\ /FS -c C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-01d8m7\\src.c
+        C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-01d8m7\\src.c(1): warning C4013: '__builtin_bswap32' undefined; assuming extern returning int
+        [2/2] cmd.exe /C "cd . && C:\\Users\\Deega\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_49b24.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_49b24.dir\\src.c.obj  /out:cmTC_49b24.exe /implib:cmTC_49b24.lib /pdb:cmTC_49b24.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_49b24.exe 
+        cmd.exe /C "cd . && C:\\Users\\Deega\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_49b24.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_49b24.dir\\src.c.obj  /out:cmTC_49b24.exe /implib:cmTC_49b24.lib /pdb:cmTC_49b24.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_49b24.dir\\src.c.obj /out:cmTC_49b24.exe /implib:cmTC_49b24.lib /pdb:cmTC_49b24.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_49b24.dir/intermediate.manifest CMakeFiles\\cmTC_49b24.dir/manifest.res" failed (exit code 1120) with the following output:
+        src.c.obj : error LNK2019: unresolved external symbol __builtin_bswap32 referenced in function main\x0d
+        cmTC_49b24.exe : fatal error LNK1120: 1 unresolved externals\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:70 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_WERROR_FLAG"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-921o3r"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-921o3r"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/src/a836a4011a-419595447f.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_WERROR_FLAG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-921o3r'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_5e5b9
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_WERROR_FLAG  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1   -Werror /showIncludes /FoCMakeFiles\\cmTC_5e5b9.dir\\src.c.obj /FdCMakeFiles\\cmTC_5e5b9.dir\\ /FS -c C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-921o3r\\src.c
+        FAILED: CMakeFiles/cmTC_5e5b9.dir/src.c.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_WERROR_FLAG  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1   -Werror /showIncludes /FoCMakeFiles\\cmTC_5e5b9.dir\\src.c.obj /FdCMakeFiles\\cmTC_5e5b9.dir\\ /FS -c C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-921o3r\\src.c
+        cl : Command line error D8021 : invalid numeric argument '/Werror'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:71 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_DECL_AFTER_STMT_FLAG"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-4z8we4"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-4z8we4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/src/a836a4011a-419595447f.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_DECL_AFTER_STMT_FLAG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-4z8we4'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_38599
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_DECL_AFTER_STMT_FLAG  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1   -Wdeclaration-after-statement /showIncludes /FoCMakeFiles\\cmTC_38599.dir\\src.c.obj /FdCMakeFiles\\cmTC_38599.dir\\ /FS -c C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-4z8we4\\src.c
+        FAILED: CMakeFiles/cmTC_38599.dir/src.c.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_DECL_AFTER_STMT_FLAG  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1   -Wdeclaration-after-statement /showIncludes /FoCMakeFiles\\cmTC_38599.dir\\src.c.obj /FdCMakeFiles\\cmTC_38599.dir\\ /FS -c C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-4z8we4\\src.c
+        cl : Command line error D8021 : invalid numeric argument '/Wdeclaration-after-statement'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:72 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_STACKREALIGN_FLAG"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-w3ie0z"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-w3ie0z"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/src/a836a4011a-419595447f.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_STACKREALIGN_FLAG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-w3ie0z'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_4dc24
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_STACKREALIGN_FLAG  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1   -mstackrealign /showIncludes /FoCMakeFiles\\cmTC_4dc24.dir\\src.c.obj /FdCMakeFiles\\cmTC_4dc24.dir\\ /FS -c C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-w3ie0z\\src.c
+        cl : Command line warning D9002 : ignoring unknown option '-mstackrealign'
+        [2/2] cmd.exe /C "cd . && C:\\Users\\Deega\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_4dc24.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_4dc24.dir\\src.c.obj  /out:cmTC_4dc24.exe /implib:cmTC_4dc24.lib /pdb:cmTC_4dc24.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:73 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_WEFFCXX_FLAG"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-uyzu76"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-uyzu76"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/src/a836a4011a-419595447f.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_WEFFCXX_FLAG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-uyzu76'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_c4461
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_WEFFCXX_FLAG  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP   /MDd /Zi /Ob0 /Od /RTC1   -Weffc++ /showIncludes /FoCMakeFiles\\cmTC_c4461.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_c4461.dir\\ /FS -c C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-uyzu76\\src.cxx
+        FAILED: CMakeFiles/cmTC_c4461.dir/src.cxx.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_WEFFCXX_FLAG  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP   /MDd /Zi /Ob0 /Od /RTC1   -Weffc++ /showIncludes /FoCMakeFiles\\cmTC_c4461.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_c4461.dir\\ /FS -c C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-uyzu76\\src.cxx
+        cl : Command line error D8021 : invalid numeric argument '/Weffc++'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "src/libFLAC/CMakeLists.txt:3 (check_include_file)"
+    checks:
+      - "Looking for cpuid.h"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-3m70tw"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-3m70tw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/src/a836a4011a-419595447f.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_CPUID_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-3m70tw'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_fbd8f
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_fbd8f.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_fbd8f.dir\\ /FS -c C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-3m70tw\\CheckIncludeFile.c
+        FAILED: CMakeFiles/cmTC_fbd8f.dir/CheckIncludeFile.c.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_fbd8f.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_fbd8f.dir\\ /FS -c C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-3m70tw\\CheckIncludeFile.c
+        C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-3m70tw\\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'cpuid.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "src/libFLAC/CMakeLists.txt:4 (check_include_file)"
+    checks:
+      - "Looking for sys/param.h"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-lfb6dq"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-lfb6dq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/src/a836a4011a-419595447f.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_SYS_PARAM_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-lfb6dq'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_f324b
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_f324b.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_f324b.dir\\ /FS -c C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-lfb6dq\\CheckIncludeFile.c
+        FAILED: CMakeFiles/cmTC_f324b.dir/CheckIncludeFile.c.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_f324b.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_f324b.dir\\ /FS -c C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-lfb6dq\\CheckIncludeFile.c
+        C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-lfb6dq\\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/param.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "src/libFLAC/CMakeLists.txt:7 (check_function_exists)"
+    checks:
+      - "Looking for lround"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-kwbi52"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-kwbi52"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/src/a836a4011a-419595447f.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_LROUND"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-kwbi52'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_10ea2
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  -DCHECK_FUNCTION_EXISTS=lround /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_10ea2.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_10ea2.dir\\ /FS -c C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-kwbi52\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\Deega\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_10ea2.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_10ea2.dir\\CheckFunctionExists.c.obj  /out:cmTC_10ea2.exe /implib:cmTC_10ea2.lib /pdb:cmTC_10ea2.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  m.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_10ea2.exe 
+        cmd.exe /C "cd . && C:\\Users\\Deega\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_10ea2.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_10ea2.dir\\CheckFunctionExists.c.obj  /out:cmTC_10ea2.exe /implib:cmTC_10ea2.lib /pdb:cmTC_10ea2.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  m.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_10ea2.dir\\CheckFunctionExists.c.obj /out:cmTC_10ea2.exe /implib:cmTC_10ea2.lib /pdb:cmTC_10ea2.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console m.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_10ea2.dir/intermediate.manifest CMakeFiles\\cmTC_10ea2.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'm.lib'\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/CheckCPUArch.cmake:6 (try_compile)"
+      - "cmake/CheckCPUArch.cmake:18 (_CHECK_CPU_ARCH)"
+      - "src/libFLAC/CMakeLists.txt:12 (check_cpu_arch_x64)"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/src/a836a4011a-419595447f.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_FLAC__CPU_X86_64"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_8ec52
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_8ec52.dir\\CheckCPUArch.c.obj /FdCMakeFiles\\cmTC_8ec52.dir\\ /FS -c C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\CMakeTmp\\CheckCPUArch.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\Deega\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_8ec52.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_8ec52.dir\\CheckCPUArch.c.obj  /out:cmTC_8ec52.exe /implib:cmTC_8ec52.lib /pdb:cmTC_8ec52.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckLanguage.cmake:100 (message)"
+      - "src/libFLAC/CMakeLists.txt:23 (check_language)"
+    checks:
+      - "Looking for a ASM_NASM compiler"
+    message: |
+      Looking for a ASM_NASM compiler failed with the following output:
+      -- The ASM_NASM compiler identification is unknown
+      -- Didn't find assembler
+      CMake Error at CMakeLists.txt:2 (project):
+        No CMAKE_ASM_NASM_COMPILER could be found.
+      
+        Tell CMake where to find the compiler by setting either the environment
+        variable "ASM_NASM" or the CMake cache entry CMAKE_ASM_NASM_COMPILER to the
+        full path to the compiler, or to the compiler name if it is in the PATH.
+      
+      
+      -- Configuring incomplete, errors occurred!
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "src/libFLAC++/CMakeLists.txt:1 (check_cxx_source_compiles)"
+    checks:
+      - "Performing Test HAVE_CXX_VARARRAYS"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-kvox98"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-kvox98"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/src/a836a4011a-419595447f.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_CXX_VARARRAYS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-kvox98'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_eda0f
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_CXX_VARARRAYS  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_eda0f.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_eda0f.dir\\ /FS -c C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-kvox98\\src.cxx
+        FAILED: CMakeFiles/cmTC_eda0f.dir/src.cxx.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_CXX_VARARRAYS  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_eda0f.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_eda0f.dir\\ /FS -c C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-kvox98\\src.cxx
+        C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-kvox98\\src.cxx(7): error C2131: expression did not evaluate to a constant
+        C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-kvox98\\src.cxx(7): note: failure was caused by a read of a variable outside its lifetime
+        C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-kvox98\\src.cxx(7): note: see usage of 'm'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "src/share/getopt/CMakeLists.txt:1 (check_include_file)"
+    checks:
+      - "Looking for string.h"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-nmles0"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-nmles0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/src/a836a4011a-419595447f.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_STRING_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-nmles0'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_33dc8
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_33dc8.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_33dc8.dir\\ /FS -c C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-nmles0\\CheckIncludeFile.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\Deega\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_33dc8.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_33dc8.dir\\CheckIncludeFile.c.obj  /out:cmTC_33dc8.exe /implib:cmTC_33dc8.lib /pdb:cmTC_33dc8.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/FindIntl.cmake:110 (check_c_source_compiles)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "src/share/getopt/CMakeLists.txt:3 (find_package)"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-2pbt4l"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-2pbt4l"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/src/a836a4011a-419595447f.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "Intl_IS_BUILT_IN"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/libflac/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-2pbt4l'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_763d9
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo -DIntl_IS_BUILT_IN  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_763d9.dir\\src.c.obj /FdCMakeFiles\\cmTC_763d9.dir\\ /FS -c C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-2pbt4l\\src.c
+        FAILED: CMakeFiles/cmTC_763d9.dir/src.c.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo -DIntl_IS_BUILT_IN  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_763d9.dir\\src.c.obj /FdCMakeFiles\\cmTC_763d9.dir\\ /FS -c C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-2pbt4l\\src.c
+        C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\libflac\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-2pbt4l\\src.c(1): fatal error C1083: Cannot open include file: 'libintl.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...

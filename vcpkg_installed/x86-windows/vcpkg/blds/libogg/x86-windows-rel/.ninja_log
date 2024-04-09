@@ -1,0 +1,10 @@
+# ninja log v5
+7	646	7338639909606652	CMakeFiles/ogg.dir/src/bitwise.c.obj	92c90a57e4ac8167
+14	1008	7338639913208117	CMakeFiles/ogg.dir/src/framing.c.obj	f9651b277e996013
+22	1517	7338639918911647	CMakeFiles/test_bitwise.dir/src/bitwise.c.obj	13f2ba0af6bbd4ad
+1009	1898	7338639921712663	ogg.dll	775886a72084ea8a
+1009	1898	7338639921712663	ogg.lib	775886a72084ea8a
+1518	1917	7338639922112685	test_bitwise.exe	6ff375b2601481ae
+31	2691	7338639930620219	CMakeFiles/test_framing.dir/src/framing.c.obj	91bb11c1e240ddd5
+2691	3021	7338639932921840	test_framing.exe	9ab69436735c47aa
+3021	6730	0	CMakeFiles/install.util	3dee0418df7fa02b

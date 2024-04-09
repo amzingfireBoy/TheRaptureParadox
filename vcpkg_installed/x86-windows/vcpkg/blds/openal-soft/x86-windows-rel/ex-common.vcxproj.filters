@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\examples\common\alhelpers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\examples\common\alhelpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{FBDDDEE9-F883-3A6C-8DB4-97720699E9B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7C6C57A8-936D-36D7-8EA3-DE3DB9C8FE19}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

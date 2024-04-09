@@ -1,0 +1,35 @@
+Package: freetype
+Version: 2.10.4
+Architecture: x86-windows
+Multi-Arch: same
+Abi: 68feabea3ce12d60a2325ea133404ec1cf2028e6d82189936ac38b2fbc307afc
+Description: A library to render fonts.
+Default-Features: brotli, bzip2, png, zlib
+
+Package: freetype
+Feature: brotli
+Depends: brotli
+Architecture: x86-windows
+Multi-Arch: same
+Description: Support decompression of WOFF2 streams
+
+Package: freetype
+Feature: bzip2
+Depends: bzip2
+Architecture: x86-windows
+Multi-Arch: same
+Description: Support bzip2 compressed fonts.
+
+Package: freetype
+Feature: png
+Depends: libpng
+Architecture: x86-windows
+Multi-Arch: same
+Description: Support PNG compressed OpenType embedded bitmaps.
+
+Package: freetype
+Feature: zlib
+Depends: zlib
+Architecture: x86-windows
+Multi-Arch: same
+Description: Use zlib instead of internal library for DEFLATE

@@ -1,0 +1,16 @@
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/pkgs/libpng_x86-windows/lib/libpng16.lib
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/pkgs/libpng_x86-windows/bin/libpng16.dll
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/pkgs/libpng_x86-windows/include/png.h
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/pkgs/libpng_x86-windows/include/pngconf.h
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/pkgs/libpng_x86-windows/include/pnglibconf.h
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/pkgs/libpng_x86-windows/include/libpng16/png.h
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/pkgs/libpng_x86-windows/include/libpng16/pngconf.h
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/pkgs/libpng_x86-windows/include/libpng16/pnglibconf.h
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/pkgs/libpng_x86-windows/share/libpng/man/man3/libpng.3
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/pkgs/libpng_x86-windows/share/libpng/man/man3/libpngpf.3
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/pkgs/libpng_x86-windows/share/libpng/man/man5/png.5
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/pkgs/libpng_x86-windows/lib/pkgconfig/libpng.pc
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/pkgs/libpng_x86-windows/lib/pkgconfig/libpng16.pc
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/pkgs/libpng_x86-windows/lib/libpng/libpng-targets.cmake
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/pkgs/libpng_x86-windows/lib/libpng/libpng-targets-release.cmake
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/pkgs/libpng_x86-windows/lib/libpng/libpng-config.cmake

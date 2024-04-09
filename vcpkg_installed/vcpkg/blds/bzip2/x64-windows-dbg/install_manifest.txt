@@ -1,0 +1,2 @@
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/pkgs/bzip2_x64-windows/debug/lib/bz2d.lib
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/pkgs/bzip2_x64-windows/debug/bin/bz2d.dll

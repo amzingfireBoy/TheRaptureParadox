@@ -1,0 +1,9 @@
+Package: libpng
+Version: 1.6.37
+Port-Version: 14
+Depends: zlib
+Architecture: x86-windows
+Multi-Arch: same
+Abi: 4e43e0006bc466ae5924c8535e370903612d23bd10224d9e2507e81ee7cc036d
+Description: libpng is a library implementing an interface for reading and writing PNG (Portable Network Graphics) format files.
+Status: install ok half-installed

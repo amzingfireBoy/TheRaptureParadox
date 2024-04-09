@@ -1,0 +1,10 @@
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/blds/libpng/x86-windows-rel/CMakeFiles/genfiles.dir
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/blds/libpng/x86-windows-rel/CMakeFiles/png.dir
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/blds/libpng/x86-windows-rel/CMakeFiles/pngfix.dir
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/blds/libpng/x86-windows-rel/CMakeFiles/png-fix-itxt.dir
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/blds/libpng/x86-windows-rel/CMakeFiles/test.dir
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/blds/libpng/x86-windows-rel/CMakeFiles/edit_cache.dir
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/blds/libpng/x86-windows-rel/CMakeFiles/rebuild_cache.dir
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/blds/libpng/x86-windows-rel/CMakeFiles/list_install_components.dir
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/blds/libpng/x86-windows-rel/CMakeFiles/install.dir
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/blds/libpng/x86-windows-rel/CMakeFiles/install/local.dir

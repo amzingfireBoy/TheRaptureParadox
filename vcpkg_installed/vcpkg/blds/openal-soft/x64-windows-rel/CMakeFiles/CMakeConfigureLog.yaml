@@ -1,0 +1,2005 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:206 (message)"
+      - "CMakeLists.txt:30 (project)"
+    message: |
+      The target system is: Windows - 10.0.22631 - AMD64
+      The host system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:30 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: /nologo;/DWIN32;/D_WINDOWS;/W3;/utf-8;/MP
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.9.5+33de0b227 for .NET Framework
+      Build started 4/3/2024 10:14:26 AM.
+      
+      Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\3.27.1\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      VcpkgCheckManifestRoot:
+        The vcpkg manifest was disabled, but we found a manifest file in C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\. You may want to enable vcpkg manifests in your properties page or pass /p:VcpkgEnableManifest=true to the msbuild invocation.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\3.27.1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\3.27.1\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:03.15
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/3.27.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:30 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: /nologo;/DWIN32;/D_WINDOWS;/W3;/utf-8;/GR;/EHsc;/MP
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.9.5+33de0b227 for .NET Framework
+      Build started 4/3/2024 10:14:30 AM.
+      
+      Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\3.27.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgCheckManifestRoot:
+        The vcpkg manifest was disabled, but we found a manifest file in C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\. You may want to enable vcpkg manifests in your properties page or pass /p:VcpkgEnableManifest=true to the msbuild invocation.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\3.27.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\3.27.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:02.02
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/3.27.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:30 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-dwbf5d"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-dwbf5d"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_ALLOWED: "NO"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_REQUIRED: "NO"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-dwbf5d'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1f1d0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.5+33de0b227 for .NET Framework
+        Build started 4/3/2024 10:14:34 AM.
+        
+        Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-dwbf5d\\cmTC_1f1d0.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_1f1d0.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-dwbf5d\\Debug\\".
+          Creating directory "cmTC_1f1d0.dir\\Debug\\cmTC_1f1d0.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_1f1d0.dir\\Debug\\cmTC_1f1d0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_1f1d0.dir\\Debug\\cmTC_1f1d0.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1f1d0.dir\\Debug\\\\" /Fd"cmTC_1f1d0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Deega\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-dwbf5d\\Debug\\cmTC_1f1d0.exe" /INCREMENTAL /ILK:"cmTC_1f1d0.dir\\Debug\\cmTC_1f1d0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-dwbf5d/Debug/cmTC_1f1d0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-dwbf5d/Debug/cmTC_1f1d0.lib" /MACHINE:X64  /machine:x64 cmTC_1f1d0.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_1f1d0.vcxproj -> C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-dwbf5d\\Debug\\cmTC_1f1d0.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_1f1d0.dir\\Debug\\cmTC_1f1d0.tlog\\unsuccessfulbuild".
+          Touching "cmTC_1f1d0.dir\\Debug\\cmTC_1f1d0.tlog\\cmTC_1f1d0.lastbuildstate".
+        Done Building Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-dwbf5d\\cmTC_1f1d0.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.21
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:30 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-anmx2y"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-anmx2y"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_ALLOWED: "NO"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_REQUIRED: "NO"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-anmx2y'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7bdbb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.5+33de0b227 for .NET Framework
+        Build started 4/3/2024 10:14:39 AM.
+        
+        Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-anmx2y\\cmTC_7bdbb.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_7bdbb.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-anmx2y\\Debug\\".
+          Creating directory "cmTC_7bdbb.dir\\Debug\\cmTC_7bdbb.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_7bdbb.dir\\Debug\\cmTC_7bdbb.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_7bdbb.dir\\Debug\\cmTC_7bdbb.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7bdbb.dir\\Debug\\\\" /Fd"cmTC_7bdbb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue  /utf-8 "C:\\Users\\Deega\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-anmx2y\\Debug\\cmTC_7bdbb.exe" /INCREMENTAL /ILK:"cmTC_7bdbb.dir\\Debug\\cmTC_7bdbb.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-anmx2y/Debug/cmTC_7bdbb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-anmx2y/Debug/cmTC_7bdbb.lib" /MACHINE:X64  /machine:x64 cmTC_7bdbb.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_7bdbb.vcxproj -> C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-anmx2y\\Debug\\cmTC_7bdbb.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_7bdbb.dir\\Debug\\cmTC_7bdbb.tlog\\unsuccessfulbuild".
+          Touching "cmTC_7bdbb.dir\\Debug\\cmTC_7bdbb.tlog\\cmTC_7bdbb.lastbuildstate".
+        Done Building Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-anmx2y\\cmTC_7bdbb.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:03.05
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:177 (check_cxx_source_compiles)"
+    checks:
+      - "Performing Test HAVE___RESTRICT"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-xo2tck"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-xo2tck"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP "
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/src/4c793ed0a9-63c417bd2b.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_ALLOWED: "NO"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_REQUIRED: "NO"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE___RESTRICT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-xo2tck'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_79484.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.5+33de0b227 for .NET Framework
+        Build started 4/3/2024 10:14:43 AM.
+        
+        Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-xo2tck\\cmTC_79484.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_79484.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-xo2tck\\Debug\\".
+          Creating directory "cmTC_79484.dir\\Debug\\cmTC_79484.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_79484.dir\\Debug\\cmTC_79484.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_79484.dir\\Debug\\cmTC_79484.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE___RESTRICT /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_79484.dir\\Debug\\\\" /Fd"cmTC_79484.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue  /utf-8 "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-xo2tck\\src.cxx"
+          src.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-xo2tck\\Debug\\cmTC_79484.exe" /INCREMENTAL /ILK:"cmTC_79484.dir\\Debug\\cmTC_79484.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-xo2tck/Debug/cmTC_79484.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-xo2tck/Debug/cmTC_79484.lib" /MACHINE:X64  /machine:x64 cmTC_79484.dir\\Debug\\src.obj
+          cmTC_79484.vcxproj -> C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-xo2tck\\Debug\\cmTC_79484.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_79484.dir\\Debug\\cmTC_79484.tlog\\unsuccessfulbuild".
+          Touching "cmTC_79484.dir\\Debug\\cmTC_79484.tlog\\cmTC_79484.lastbuildstate".
+        Done Building Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-xo2tck\\cmTC_79484.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:03.20
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:188 (check_cxx_source_compiles)"
+    checks:
+      - "Performing Test HAVE_LIBATOMIC"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-76z8mn"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-76z8mn"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP "
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/src/4c793ed0a9-63c417bd2b.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_ALLOWED: "NO"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_REQUIRED: "NO"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_LIBATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-76z8mn'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d63c3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.5+33de0b227 for .NET Framework
+        Build started 4/3/2024 10:14:46 AM.
+        
+        Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-76z8mn\\cmTC_d63c3.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_d63c3.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-76z8mn\\Debug\\".
+          Creating directory "cmTC_d63c3.dir\\Debug\\cmTC_d63c3.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d63c3.dir\\Debug\\cmTC_d63c3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d63c3.dir\\Debug\\cmTC_d63c3.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_LIBATOMIC /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d63c3.dir\\Debug\\\\" /Fd"cmTC_d63c3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue  /utf-8 "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-76z8mn\\src.cxx"
+          src.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-76z8mn\\Debug\\cmTC_d63c3.exe" /INCREMENTAL /ILK:"cmTC_d63c3.dir\\Debug\\cmTC_d63c3.ilk" /NOLOGO atomic.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-76z8mn/Debug/cmTC_d63c3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-76z8mn/Debug/cmTC_d63c3.lib" /MACHINE:X64  /machine:x64 cmTC_d63c3.dir\\Debug\\src.obj
+        LINK : fatal error LNK1104: cannot open file 'atomic.lib' [C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-76z8mn\\cmTC_d63c3.vcxproj]
+        Done Building Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-76z8mn\\cmTC_d63c3.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-76z8mn\\cmTC_d63c3.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'atomic.lib' [C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-76z8mn\\cmTC_d63c3.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.56
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "CMakeLists.txt:200 (check_library_exists)"
+    checks:
+      - "Looking for __android_log_print in log"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-79h5dr"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-79h5dr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/src/4c793ed0a9-63c417bd2b.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_ALLOWED: "NO"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_REQUIRED: "NO"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_LIBLOG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-79h5dr'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_67c9e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.5+33de0b227 for .NET Framework
+        Build started 4/3/2024 10:14:49 AM.
+        
+        Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-79h5dr\\cmTC_67c9e.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_67c9e.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-79h5dr\\Debug\\".
+          Creating directory "cmTC_67c9e.dir\\Debug\\cmTC_67c9e.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_67c9e.dir\\Debug\\cmTC_67c9e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_67c9e.dir\\Debug\\cmTC_67c9e.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=__android_log_print /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_67c9e.dir\\Debug\\\\" /Fd"cmTC_67c9e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-79h5dr\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-79h5dr\\Debug\\cmTC_67c9e.exe" /INCREMENTAL /ILK:"cmTC_67c9e.dir\\Debug\\cmTC_67c9e.ilk" /NOLOGO log.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-79h5dr/Debug/cmTC_67c9e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-79h5dr/Debug/cmTC_67c9e.lib" /MACHINE:X64  /machine:x64 cmTC_67c9e.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'log.lib' [C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-79h5dr\\cmTC_67c9e.vcxproj]
+        Done Building Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-79h5dr\\cmTC_67c9e.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-79h5dr\\cmTC_67c9e.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'log.lib' [C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-79h5dr\\cmTC_67c9e.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:02.59
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:208 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_PERMISSIVE_SWITCH"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-z74ovo"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-z74ovo"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP "
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/src/4c793ed0a9-63c417bd2b.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_ALLOWED: "NO"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_REQUIRED: "NO"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_PERMISSIVE_SWITCH"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-z74ovo'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_14a1c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.5+33de0b227 for .NET Framework
+        Build started 4/3/2024 10:14:52 AM.
+        
+        Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-z74ovo\\cmTC_14a1c.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_14a1c.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-z74ovo\\Debug\\".
+          Creating directory "cmTC_14a1c.dir\\Debug\\cmTC_14a1c.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_14a1c.dir\\Debug\\cmTC_14a1c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_14a1c.dir\\Debug\\cmTC_14a1c.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_PERMISSIVE_SWITCH /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /permissive- /Fo"cmTC_14a1c.dir\\Debug\\\\" /Fd"cmTC_14a1c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue  /utf-8 "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-z74ovo\\src.cxx"
+          src.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-z74ovo\\Debug\\cmTC_14a1c.exe" /INCREMENTAL /ILK:"cmTC_14a1c.dir\\Debug\\cmTC_14a1c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-z74ovo/Debug/cmTC_14a1c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-z74ovo/Debug/cmTC_14a1c.lib" /MACHINE:X64  /machine:x64 cmTC_14a1c.dir\\Debug\\src.obj
+          cmTC_14a1c.vcxproj -> C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-z74ovo\\Debug\\cmTC_14a1c.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_14a1c.dir\\Debug\\cmTC_14a1c.tlog\\unsuccessfulbuild".
+          Touching "cmTC_14a1c.dir\\Debug\\cmTC_14a1c.tlog\\cmTC_14a1c.lastbuildstate".
+        Done Building Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-z74ovo\\cmTC_14a1c.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.71
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:353 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_MSSE2_SWITCH"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-k1buxh"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-k1buxh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS  /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/src/4c793ed0a9-63c417bd2b.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_ALLOWED: "NO"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_REQUIRED: "NO"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_MSSE2_SWITCH"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-k1buxh'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0d0c9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.5+33de0b227 for .NET Framework
+        Build started 4/3/2024 10:14:56 AM.
+        
+        Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-k1buxh\\cmTC_0d0c9.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_0d0c9.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-k1buxh\\Debug\\".
+          Creating directory "cmTC_0d0c9.dir\\Debug\\cmTC_0d0c9.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_0d0c9.dir\\Debug\\cmTC_0d0c9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_0d0c9.dir\\Debug\\cmTC_0d0c9.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_MSSE2_SWITCH /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0d0c9.dir\\Debug\\\\" /Fd"cmTC_0d0c9.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 -msse2 "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-k1buxh\\src.c"
+        cl : command line  warning D9002: ignoring unknown option '-msse2' [C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-k1buxh\\cmTC_0d0c9.vcxproj]
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-k1buxh\\Debug\\cmTC_0d0c9.exe" /INCREMENTAL /ILK:"cmTC_0d0c9.dir\\Debug\\cmTC_0d0c9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-k1buxh/Debug/cmTC_0d0c9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-k1buxh/Debug/cmTC_0d0c9.lib" /MACHINE:X64  /machine:x64 cmTC_0d0c9.dir\\Debug\\src.obj
+          cmTC_0d0c9.vcxproj -> C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-k1buxh\\Debug\\cmTC_0d0c9.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_0d0c9.dir\\Debug\\cmTC_0d0c9.tlog\\unsuccessfulbuild".
+          Touching "cmTC_0d0c9.dir\\Debug\\cmTC_0d0c9.tlog\\cmTC_0d0c9.lastbuildstate".
+        Done Building Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-k1buxh\\cmTC_0d0c9.vcxproj" (default targets).
+        
+        Build succeeded.
+        
+        "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-k1buxh\\cmTC_0d0c9.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          cl : command line  warning D9002: ignoring unknown option '-msse2' [C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-k1buxh\\cmTC_0d0c9.vcxproj]
+        
+            1 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.82
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:360 (check_include_file)"
+    checks:
+      - "Looking for xmmintrin.h"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-zzvtv1"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-zzvtv1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS  /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/src/4c793ed0a9-63c417bd2b.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_ALLOWED: "NO"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_REQUIRED: "NO"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_XMMINTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-zzvtv1'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_aaacd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.5+33de0b227 for .NET Framework
+        Build started 4/3/2024 10:14:59 AM.
+        
+        Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-zzvtv1\\cmTC_aaacd.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_aaacd.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-zzvtv1\\Debug\\".
+          Creating directory "cmTC_aaacd.dir\\Debug\\cmTC_aaacd.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_aaacd.dir\\Debug\\cmTC_aaacd.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_aaacd.dir\\Debug\\cmTC_aaacd.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aaacd.dir\\Debug\\\\" /Fd"cmTC_aaacd.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-zzvtv1\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-zzvtv1\\Debug\\cmTC_aaacd.exe" /INCREMENTAL /ILK:"cmTC_aaacd.dir\\Debug\\cmTC_aaacd.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-zzvtv1/Debug/cmTC_aaacd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-zzvtv1/Debug/cmTC_aaacd.lib" /MACHINE:X64  /machine:x64 cmTC_aaacd.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_aaacd.vcxproj -> C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-zzvtv1\\Debug\\cmTC_aaacd.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_aaacd.dir\\Debug\\cmTC_aaacd.tlog\\unsuccessfulbuild".
+          Touching "cmTC_aaacd.dir\\Debug\\cmTC_aaacd.tlog\\cmTC_aaacd.lastbuildstate".
+        Done Building Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-zzvtv1\\cmTC_aaacd.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:03.39
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:361 (check_include_file)"
+    checks:
+      - "Looking for emmintrin.h"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-ijyb63"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-ijyb63"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS  /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/src/4c793ed0a9-63c417bd2b.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_ALLOWED: "NO"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_REQUIRED: "NO"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_EMMINTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-ijyb63'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d5511.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.5+33de0b227 for .NET Framework
+        Build started 4/3/2024 10:15:04 AM.
+        
+        Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-ijyb63\\cmTC_d5511.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_d5511.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-ijyb63\\Debug\\".
+          Creating directory "cmTC_d5511.dir\\Debug\\cmTC_d5511.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d5511.dir\\Debug\\cmTC_d5511.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d5511.dir\\Debug\\cmTC_d5511.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d5511.dir\\Debug\\\\" /Fd"cmTC_d5511.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-ijyb63\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-ijyb63\\Debug\\cmTC_d5511.exe" /INCREMENTAL /ILK:"cmTC_d5511.dir\\Debug\\cmTC_d5511.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-ijyb63/Debug/cmTC_d5511.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-ijyb63/Debug/cmTC_d5511.lib" /MACHINE:X64  /machine:x64 cmTC_d5511.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_d5511.vcxproj -> C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-ijyb63\\Debug\\cmTC_d5511.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_d5511.dir\\Debug\\cmTC_d5511.tlog\\unsuccessfulbuild".
+          Touching "cmTC_d5511.dir\\Debug\\cmTC_d5511.tlog\\cmTC_d5511.lastbuildstate".
+        Done Building Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-ijyb63\\cmTC_d5511.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.12
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:362 (check_include_file)"
+    checks:
+      - "Looking for pmmintrin.h"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-7fr7sr"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-7fr7sr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS  /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/src/4c793ed0a9-63c417bd2b.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_ALLOWED: "NO"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_REQUIRED: "NO"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_PMMINTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-7fr7sr'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c4448.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.5+33de0b227 for .NET Framework
+        Build started 4/3/2024 10:15:07 AM.
+        
+        Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-7fr7sr\\cmTC_c4448.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_c4448.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-7fr7sr\\Debug\\".
+          Creating directory "cmTC_c4448.dir\\Debug\\cmTC_c4448.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_c4448.dir\\Debug\\cmTC_c4448.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c4448.dir\\Debug\\cmTC_c4448.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c4448.dir\\Debug\\\\" /Fd"cmTC_c4448.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-7fr7sr\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-7fr7sr\\Debug\\cmTC_c4448.exe" /INCREMENTAL /ILK:"cmTC_c4448.dir\\Debug\\cmTC_c4448.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-7fr7sr/Debug/cmTC_c4448.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-7fr7sr/Debug/cmTC_c4448.lib" /MACHINE:X64  /machine:x64 cmTC_c4448.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_c4448.vcxproj -> C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-7fr7sr\\Debug\\cmTC_c4448.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_c4448.dir\\Debug\\cmTC_c4448.tlog\\unsuccessfulbuild".
+          Touching "cmTC_c4448.dir\\Debug\\cmTC_c4448.tlog\\cmTC_c4448.lastbuildstate".
+        Done Building Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-7fr7sr\\cmTC_c4448.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.47
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:363 (check_include_file)"
+    checks:
+      - "Looking for smmintrin.h"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-rjp21g"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-rjp21g"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS  /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/src/4c793ed0a9-63c417bd2b.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_ALLOWED: "NO"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_REQUIRED: "NO"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_SMMINTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-rjp21g'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e7bf1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.5+33de0b227 for .NET Framework
+        Build started 4/3/2024 10:15:10 AM.
+        
+        Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-rjp21g\\cmTC_e7bf1.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_e7bf1.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-rjp21g\\Debug\\".
+          Creating directory "cmTC_e7bf1.dir\\Debug\\cmTC_e7bf1.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_e7bf1.dir\\Debug\\cmTC_e7bf1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_e7bf1.dir\\Debug\\cmTC_e7bf1.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e7bf1.dir\\Debug\\\\" /Fd"cmTC_e7bf1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-rjp21g\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-rjp21g\\Debug\\cmTC_e7bf1.exe" /INCREMENTAL /ILK:"cmTC_e7bf1.dir\\Debug\\cmTC_e7bf1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-rjp21g/Debug/cmTC_e7bf1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-rjp21g/Debug/cmTC_e7bf1.lib" /MACHINE:X64  /machine:x64 cmTC_e7bf1.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_e7bf1.vcxproj -> C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-rjp21g\\Debug\\cmTC_e7bf1.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_e7bf1.dir\\Debug\\cmTC_e7bf1.tlog\\unsuccessfulbuild".
+          Touching "cmTC_e7bf1.dir\\Debug\\cmTC_e7bf1.tlog\\cmTC_e7bf1.lastbuildstate".
+        Done Building Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-rjp21g\\cmTC_e7bf1.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.06
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:364 (check_include_file)"
+    checks:
+      - "Looking for arm_neon.h"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-8eo136"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-8eo136"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS  /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/src/4c793ed0a9-63c417bd2b.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_ALLOWED: "NO"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_REQUIRED: "NO"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_ARM_NEON_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-8eo136'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8fc2e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.5+33de0b227 for .NET Framework
+        Build started 4/3/2024 10:15:13 AM.
+        
+        Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-8eo136\\cmTC_8fc2e.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_8fc2e.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-8eo136\\Debug\\".
+          Creating directory "cmTC_8fc2e.dir\\Debug\\cmTC_8fc2e.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_8fc2e.dir\\Debug\\cmTC_8fc2e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_8fc2e.dir\\Debug\\cmTC_8fc2e.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8fc2e.dir\\Debug\\\\" /Fd"cmTC_8fc2e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-8eo136\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\arm_neon.h(21,1): error C1189: #error:  This header is specific to ARM targets [C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-8eo136\\cmTC_8fc2e.vcxproj]
+          (compiling source file 'CheckIncludeFile.c')
+          
+        Done Building Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-8eo136\\cmTC_8fc2e.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-8eo136\\cmTC_8fc2e.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\arm_neon.h(21,1): error C1189: #error:  This header is specific to ARM targets [C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-8eo136\\cmTC_8fc2e.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:02.02
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:467 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_SSE_INTRINSICS"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-csmd00"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-csmd00"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS  /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/src/4c793ed0a9-63c417bd2b.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_ALLOWED: "NO"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_REQUIRED: "NO"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_SSE_INTRINSICS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-csmd00'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_16759.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.5+33de0b227 for .NET Framework
+        Build started 4/3/2024 10:15:18 AM.
+        
+        Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-csmd00\\cmTC_16759.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_16759.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-csmd00\\Debug\\".
+          Creating directory "cmTC_16759.dir\\Debug\\cmTC_16759.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_16759.dir\\Debug\\cmTC_16759.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_16759.dir\\Debug\\cmTC_16759.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_SSE_INTRINSICS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_16759.dir\\Debug\\\\" /Fd"cmTC_16759.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-csmd00\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-csmd00\\Debug\\cmTC_16759.exe" /INCREMENTAL /ILK:"cmTC_16759.dir\\Debug\\cmTC_16759.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-csmd00/Debug/cmTC_16759.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-csmd00/Debug/cmTC_16759.lib" /MACHINE:X64  /machine:x64 cmTC_16759.dir\\Debug\\src.obj
+          cmTC_16759.vcxproj -> C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-csmd00\\Debug\\cmTC_16759.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_16759.dir\\Debug\\cmTC_16759.tlog\\unsuccessfulbuild".
+          Touching "cmTC_16759.dir\\Debug\\cmTC_16759.tlog\\cmTC_16759.lastbuildstate".
+        Done Building Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-csmd00\\cmTC_16759.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.59
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:474 (check_include_file)"
+    checks:
+      - "Looking for malloc.h"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-zaexnv"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-zaexnv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS  /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/src/4c793ed0a9-63c417bd2b.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_ALLOWED: "NO"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_REQUIRED: "NO"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_MALLOC_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-zaexnv'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d51e8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.5+33de0b227 for .NET Framework
+        Build started 4/3/2024 10:15:20 AM.
+        
+        Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-zaexnv\\cmTC_d51e8.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_d51e8.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-zaexnv\\Debug\\".
+          Creating directory "cmTC_d51e8.dir\\Debug\\cmTC_d51e8.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d51e8.dir\\Debug\\cmTC_d51e8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d51e8.dir\\Debug\\cmTC_d51e8.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d51e8.dir\\Debug\\\\" /Fd"cmTC_d51e8.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-zaexnv\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-zaexnv\\Debug\\cmTC_d51e8.exe" /INCREMENTAL /ILK:"cmTC_d51e8.dir\\Debug\\cmTC_d51e8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-zaexnv/Debug/cmTC_d51e8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-zaexnv/Debug/cmTC_d51e8.lib" /MACHINE:X64  /machine:x64 cmTC_d51e8.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_d51e8.vcxproj -> C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-zaexnv\\Debug\\cmTC_d51e8.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_d51e8.dir\\Debug\\cmTC_d51e8.tlog\\unsuccessfulbuild".
+          Touching "cmTC_d51e8.dir\\Debug\\cmTC_d51e8.tlog\\cmTC_d51e8.lastbuildstate".
+        Done Building Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-zaexnv\\cmTC_d51e8.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:03.45
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:475 (check_include_file)"
+    checks:
+      - "Looking for cpuid.h"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-nzq21c"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-nzq21c"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS  /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/src/4c793ed0a9-63c417bd2b.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_ALLOWED: "NO"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_REQUIRED: "NO"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_CPUID_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-nzq21c'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_65a99.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.5+33de0b227 for .NET Framework
+        Build started 4/3/2024 10:15:25 AM.
+        
+        Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-nzq21c\\cmTC_65a99.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_65a99.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-nzq21c\\Debug\\".
+          Creating directory "cmTC_65a99.dir\\Debug\\cmTC_65a99.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_65a99.dir\\Debug\\cmTC_65a99.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_65a99.dir\\Debug\\cmTC_65a99.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_65a99.dir\\Debug\\\\" /Fd"cmTC_65a99.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-nzq21c\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-nzq21c\\CheckIncludeFile.c(1,10): error C1083: Cannot open include file: 'cpuid.h': No such file or directory [C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-nzq21c\\cmTC_65a99.vcxproj]
+        Done Building Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-nzq21c\\cmTC_65a99.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-nzq21c\\cmTC_65a99.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-nzq21c\\CheckIncludeFile.c(1,10): error C1083: Cannot open include file: 'cpuid.h': No such file or directory [C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-nzq21c\\cmTC_65a99.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.84
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:476 (check_include_file)"
+    checks:
+      - "Looking for intrin.h"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-srdml6"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-srdml6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS  /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/src/4c793ed0a9-63c417bd2b.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_ALLOWED: "NO"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_REQUIRED: "NO"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_INTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-srdml6'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b6e6d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.5+33de0b227 for .NET Framework
+        Build started 4/3/2024 10:15:27 AM.
+        
+        Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-srdml6\\cmTC_b6e6d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_b6e6d.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-srdml6\\Debug\\".
+          Creating directory "cmTC_b6e6d.dir\\Debug\\cmTC_b6e6d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_b6e6d.dir\\Debug\\cmTC_b6e6d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_b6e6d.dir\\Debug\\cmTC_b6e6d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b6e6d.dir\\Debug\\\\" /Fd"cmTC_b6e6d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-srdml6\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-srdml6\\Debug\\cmTC_b6e6d.exe" /INCREMENTAL /ILK:"cmTC_b6e6d.dir\\Debug\\cmTC_b6e6d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-srdml6/Debug/cmTC_b6e6d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-srdml6/Debug/cmTC_b6e6d.lib" /MACHINE:X64  /machine:x64 cmTC_b6e6d.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_b6e6d.vcxproj -> C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-srdml6\\Debug\\cmTC_b6e6d.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_b6e6d.dir\\Debug\\cmTC_b6e6d.tlog\\unsuccessfulbuild".
+          Touching "cmTC_b6e6d.dir\\Debug\\cmTC_b6e6d.tlog\\cmTC_b6e6d.lastbuildstate".
+        Done Building Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-srdml6\\cmTC_b6e6d.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:04.44
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:477 (check_include_file)"
+    checks:
+      - "Looking for guiddef.h"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-tz3jsy"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-tz3jsy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS  /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/src/4c793ed0a9-63c417bd2b.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_ALLOWED: "NO"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_REQUIRED: "NO"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_GUIDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-tz3jsy'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7e0ad.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.5+33de0b227 for .NET Framework
+        Build started 4/3/2024 10:15:33 AM.
+        
+        Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-tz3jsy\\cmTC_7e0ad.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_7e0ad.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-tz3jsy\\Debug\\".
+          Creating directory "cmTC_7e0ad.dir\\Debug\\cmTC_7e0ad.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_7e0ad.dir\\Debug\\cmTC_7e0ad.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_7e0ad.dir\\Debug\\cmTC_7e0ad.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7e0ad.dir\\Debug\\\\" /Fd"cmTC_7e0ad.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-tz3jsy\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-tz3jsy\\Debug\\cmTC_7e0ad.exe" /INCREMENTAL /ILK:"cmTC_7e0ad.dir\\Debug\\cmTC_7e0ad.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-tz3jsy/Debug/cmTC_7e0ad.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-tz3jsy/Debug/cmTC_7e0ad.lib" /MACHINE:X64  /machine:x64 cmTC_7e0ad.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_7e0ad.vcxproj -> C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-tz3jsy\\Debug\\cmTC_7e0ad.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_7e0ad.dir\\Debug\\cmTC_7e0ad.tlog\\unsuccessfulbuild".
+          Touching "cmTC_7e0ad.dir\\Debug\\cmTC_7e0ad.tlog\\cmTC_7e0ad.lastbuildstate".
+        Done Building Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-tz3jsy\\cmTC_7e0ad.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:03.07
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "CMakeLists.txt:484 (check_library_exists)"
+    checks:
+      - "Looking for pow in m"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-i0fiyi"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-i0fiyi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS  /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/src/4c793ed0a9-63c417bd2b.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_ALLOWED: "NO"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_REQUIRED: "NO"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_LIBM"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-i0fiyi'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_96f67.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.5+33de0b227 for .NET Framework
+        Build started 4/3/2024 10:15:36 AM.
+        
+        Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-i0fiyi\\cmTC_96f67.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_96f67.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-i0fiyi\\Debug\\".
+          Creating directory "cmTC_96f67.dir\\Debug\\cmTC_96f67.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_96f67.dir\\Debug\\cmTC_96f67.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_96f67.dir\\Debug\\cmTC_96f67.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pow /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_96f67.dir\\Debug\\\\" /Fd"cmTC_96f67.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-i0fiyi\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-i0fiyi\\Debug\\cmTC_96f67.exe" /INCREMENTAL /ILK:"cmTC_96f67.dir\\Debug\\cmTC_96f67.ilk" /NOLOGO m.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-i0fiyi/Debug/cmTC_96f67.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-i0fiyi/Debug/cmTC_96f67.lib" /MACHINE:X64  /machine:x64 cmTC_96f67.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'm.lib' [C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-i0fiyi\\cmTC_96f67.vcxproj]
+        Done Building Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-i0fiyi\\cmTC_96f67.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-i0fiyi\\cmTC_96f67.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'm.lib' [C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-i0fiyi\\cmTC_96f67.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.25
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "CMakeLists.txt:493 (check_library_exists)"
+    checks:
+      - "Looking for clock_gettime in rt"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-s4rjq6"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-s4rjq6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS  /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/src/4c793ed0a9-63c417bd2b.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_ALLOWED: "NO"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_REQUIRED: "NO"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_LIBRT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-s4rjq6'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d2876.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.5+33de0b227 for .NET Framework
+        Build started 4/3/2024 10:15:39 AM.
+        
+        Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-s4rjq6\\cmTC_d2876.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_d2876.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-s4rjq6\\Debug\\".
+          Creating directory "cmTC_d2876.dir\\Debug\\cmTC_d2876.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d2876.dir\\Debug\\cmTC_d2876.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d2876.dir\\Debug\\cmTC_d2876.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=clock_gettime /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d2876.dir\\Debug\\\\" /Fd"cmTC_d2876.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-s4rjq6\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-s4rjq6\\Debug\\cmTC_d2876.exe" /INCREMENTAL /ILK:"cmTC_d2876.dir\\Debug\\cmTC_d2876.ilk" /NOLOGO rt.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-s4rjq6/Debug/cmTC_d2876.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-s4rjq6/Debug/cmTC_d2876.lib" /MACHINE:X64  /machine:x64 cmTC_d2876.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'rt.lib' [C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-s4rjq6\\cmTC_d2876.vcxproj]
+        Done Building Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-s4rjq6\\cmTC_d2876.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-s4rjq6\\cmTC_d2876.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'rt.lib' [C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-s4rjq6\\cmTC_d2876.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.05
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:500 (check_include_file)"
+    checks:
+      - "Looking for dlfcn.h"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-j92xfh"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-j92xfh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS  /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/src/4c793ed0a9-63c417bd2b.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_ALLOWED: "NO"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_REQUIRED: "NO"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_DLFCN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-j92xfh'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_531ee.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.5+33de0b227 for .NET Framework
+        Build started 4/3/2024 10:15:41 AM.
+        
+        Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-j92xfh\\cmTC_531ee.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_531ee.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-j92xfh\\Debug\\".
+          Creating directory "cmTC_531ee.dir\\Debug\\cmTC_531ee.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_531ee.dir\\Debug\\cmTC_531ee.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_531ee.dir\\Debug\\cmTC_531ee.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_531ee.dir\\Debug\\\\" /Fd"cmTC_531ee.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-j92xfh\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-j92xfh\\CheckIncludeFile.c(1,10): error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-j92xfh\\cmTC_531ee.vcxproj]
+        Done Building Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-j92xfh\\cmTC_531ee.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-j92xfh\\cmTC_531ee.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-j92xfh\\CheckIncludeFile.c(1,10): error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-j92xfh\\cmTC_531ee.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.16
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "CMakeLists.txt:501 (check_library_exists)"
+    checks:
+      - "Looking for dlopen in dl"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-mfwtbk"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-mfwtbk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS  /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/src/4c793ed0a9-63c417bd2b.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_ALLOWED: "NO"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_REQUIRED: "NO"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_LIBDL"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-mfwtbk'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_989df.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.5+33de0b227 for .NET Framework
+        Build started 4/3/2024 10:15:42 AM.
+        
+        Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-mfwtbk\\cmTC_989df.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_989df.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-mfwtbk\\Debug\\".
+          Creating directory "cmTC_989df.dir\\Debug\\cmTC_989df.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_989df.dir\\Debug\\cmTC_989df.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_989df.dir\\Debug\\cmTC_989df.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=dlopen /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_989df.dir\\Debug\\\\" /Fd"cmTC_989df.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-mfwtbk\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-mfwtbk\\Debug\\cmTC_989df.exe" /INCREMENTAL /ILK:"cmTC_989df.dir\\Debug\\cmTC_989df.ilk" /NOLOGO dl.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-mfwtbk/Debug/cmTC_989df.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-mfwtbk/Debug/cmTC_989df.lib" /MACHINE:X64  /machine:x64 cmTC_989df.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'dl.lib' [C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-mfwtbk\\cmTC_989df.vcxproj]
+        Done Building Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-mfwtbk\\cmTC_989df.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-mfwtbk\\cmTC_989df.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'dl.lib' [C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-mfwtbk\\cmTC_989df.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.34
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:518 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_CPUID_INTRINSIC"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-mf1vr6"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-mf1vr6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS  /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/src/4c793ed0a9-63c417bd2b.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_ALLOWED: "NO"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_REQUIRED: "NO"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_CPUID_INTRINSIC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-mf1vr6'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fdd0d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.5+33de0b227 for .NET Framework
+        Build started 4/3/2024 10:15:45 AM.
+        
+        Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-mf1vr6\\cmTC_fdd0d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_fdd0d.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-mf1vr6\\Debug\\".
+          Creating directory "cmTC_fdd0d.dir\\Debug\\cmTC_fdd0d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_fdd0d.dir\\Debug\\cmTC_fdd0d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_fdd0d.dir\\Debug\\cmTC_fdd0d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_CPUID_INTRINSIC /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fdd0d.dir\\Debug\\\\" /Fd"cmTC_fdd0d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-mf1vr6\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-mf1vr6\\Debug\\cmTC_fdd0d.exe" /INCREMENTAL /ILK:"cmTC_fdd0d.dir\\Debug\\cmTC_fdd0d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-mf1vr6/Debug/cmTC_fdd0d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-mf1vr6/Debug/cmTC_fdd0d.lib" /MACHINE:X64  /machine:x64 cmTC_fdd0d.dir\\Debug\\src.obj
+          cmTC_fdd0d.vcxproj -> C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-mf1vr6\\Debug\\cmTC_fdd0d.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_fdd0d.dir\\Debug\\cmTC_fdd0d.tlog\\unsuccessfulbuild".
+          Touching "cmTC_fdd0d.dir\\Debug\\cmTC_fdd0d.tlog\\cmTC_fdd0d.lastbuildstate".
+        Done Building Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-mf1vr6\\cmTC_fdd0d.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.55
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:527 (check_symbol_exists)"
+    checks:
+      - "Looking for posix_memalign"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-qy7o92"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-qy7o92"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS  /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/src/4c793ed0a9-63c417bd2b.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_ALLOWED: "NO"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_REQUIRED: "NO"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_POSIX_MEMALIGN"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-qy7o92'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_98358.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.5+33de0b227 for .NET Framework
+        Build started 4/3/2024 10:15:49 AM.
+        
+        Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-qy7o92\\cmTC_98358.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_98358.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-qy7o92\\Debug\\".
+          Creating directory "cmTC_98358.dir\\Debug\\cmTC_98358.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_98358.dir\\Debug\\cmTC_98358.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_98358.dir\\Debug\\cmTC_98358.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_98358.dir\\Debug\\\\" /Fd"cmTC_98358.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-qy7o92\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-qy7o92\\CheckSymbolExists.c(8,33): error C2065: 'posix_memalign': undeclared identifier [C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-qy7o92\\cmTC_98358.vcxproj]
+        Done Building Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-qy7o92\\cmTC_98358.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-qy7o92\\cmTC_98358.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-qy7o92\\CheckSymbolExists.c(8,33): error C2065: 'posix_memalign': undeclared identifier [C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-qy7o92\\cmTC_98358.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.07
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:528 (check_symbol_exists)"
+    checks:
+      - "Looking for _aligned_malloc"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-ijml1x"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-ijml1x"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS  /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/src/4c793ed0a9-63c417bd2b.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_ALLOWED: "NO"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_REQUIRED: "NO"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE__ALIGNED_MALLOC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-ijml1x'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_efeb0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.5+33de0b227 for .NET Framework
+        Build started 4/3/2024 10:15:50 AM.
+        
+        Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-ijml1x\\cmTC_efeb0.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_efeb0.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-ijml1x\\Debug\\".
+          Creating directory "cmTC_efeb0.dir\\Debug\\cmTC_efeb0.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_efeb0.dir\\Debug\\cmTC_efeb0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_efeb0.dir\\Debug\\cmTC_efeb0.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_efeb0.dir\\Debug\\\\" /Fd"cmTC_efeb0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-ijml1x\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-ijml1x\\Debug\\cmTC_efeb0.exe" /INCREMENTAL /ILK:"cmTC_efeb0.dir\\Debug\\cmTC_efeb0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-ijml1x/Debug/cmTC_efeb0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-ijml1x/Debug/cmTC_efeb0.lib" /MACHINE:X64  /machine:x64 cmTC_efeb0.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_efeb0.vcxproj -> C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-ijml1x\\Debug\\cmTC_efeb0.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_efeb0.dir\\Debug\\cmTC_efeb0.tlog\\unsuccessfulbuild".
+          Touching "cmTC_efeb0.dir\\Debug\\cmTC_efeb0.tlog\\cmTC_efeb0.lastbuildstate".
+        Done Building Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-ijml1x\\cmTC_efeb0.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.48
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:529 (check_symbol_exists)"
+    checks:
+      - "Looking for proc_pidpath"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-zsv9n4"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-zsv9n4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS  /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/src/4c793ed0a9-63c417bd2b.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_ALLOWED: "NO"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_REQUIRED: "NO"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_PROC_PIDPATH"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-zsv9n4'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b9407.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.5+33de0b227 for .NET Framework
+        Build started 4/3/2024 10:15:54 AM.
+        
+        Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-zsv9n4\\cmTC_b9407.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_b9407.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-zsv9n4\\Debug\\".
+          Creating directory "cmTC_b9407.dir\\Debug\\cmTC_b9407.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_b9407.dir\\Debug\\cmTC_b9407.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_b9407.dir\\Debug\\cmTC_b9407.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b9407.dir\\Debug\\\\" /Fd"cmTC_b9407.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-zsv9n4\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-zsv9n4\\CheckSymbolExists.c(2,10): error C1083: Cannot open include file: 'libproc.h': No such file or directory [C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-zsv9n4\\cmTC_b9407.vcxproj]
+        Done Building Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-zsv9n4\\cmTC_b9407.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-zsv9n4\\cmTC_b9407.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-zsv9n4\\CheckSymbolExists.c(2,10): error C1083: Cannot open include file: 'libproc.h': No such file or directory [C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-zsv9n4\\cmTC_b9407.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.12
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:603 (check_symbol_exists)"
+    checks:
+      - "Looking for getopt"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-w6pmbg"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-w6pmbg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS  /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/src/4c793ed0a9-63c417bd2b.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_ALLOWED: "NO"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_REQUIRED: "NO"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_GETOPT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-w6pmbg'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d064d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.5+33de0b227 for .NET Framework
+        Build started 4/3/2024 10:15:56 AM.
+        
+        Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-w6pmbg\\cmTC_d064d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_d064d.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-w6pmbg\\Debug\\".
+          Creating directory "cmTC_d064d.dir\\Debug\\cmTC_d064d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d064d.dir\\Debug\\cmTC_d064d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d064d.dir\\Debug\\cmTC_d064d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d064d.dir\\Debug\\\\" /Fd"cmTC_d064d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-w6pmbg\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-w6pmbg\\CheckSymbolExists.c(2,10): error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-w6pmbg\\cmTC_d064d.vcxproj]
+        Done Building Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-w6pmbg\\cmTC_d064d.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-w6pmbg\\cmTC_d064d.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-w6pmbg\\CheckSymbolExists.c(2,10): error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-w6pmbg\\cmTC_d064d.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.93
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:904 (check_include_file)"
+    checks:
+      - "Looking for dsound.h"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-zpnb52"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-zpnb52"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS  /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/src/4c793ed0a9-63c417bd2b.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_ALLOWED: "NO"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_REQUIRED: "NO"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_DSOUND_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-zpnb52'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4b06d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.5+33de0b227 for .NET Framework
+        Build started 4/3/2024 10:16:19 AM.
+        
+        Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-zpnb52\\cmTC_4b06d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_4b06d.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-zpnb52\\Debug\\".
+          Creating directory "cmTC_4b06d.dir\\Debug\\cmTC_4b06d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_4b06d.dir\\Debug\\cmTC_4b06d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_4b06d.dir\\Debug\\cmTC_4b06d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4b06d.dir\\Debug\\\\" /Fd"cmTC_4b06d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-zpnb52\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-zpnb52\\Debug\\cmTC_4b06d.exe" /INCREMENTAL /ILK:"cmTC_4b06d.dir\\Debug\\cmTC_4b06d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-zpnb52/Debug/cmTC_4b06d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-zpnb52/Debug/cmTC_4b06d.lib" /MACHINE:X64  /machine:x64 cmTC_4b06d.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_4b06d.vcxproj -> C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-zpnb52\\Debug\\cmTC_4b06d.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_4b06d.dir\\Debug\\cmTC_4b06d.tlog\\unsuccessfulbuild".
+          Touching "cmTC_4b06d.dir\\Debug\\cmTC_4b06d.tlog\\cmTC_4b06d.lastbuildstate".
+        Done Building Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-zpnb52\\cmTC_4b06d.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:07.29
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:924 (check_include_file)"
+    checks:
+      - "Looking for mmdeviceapi.h"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-zn1yzz"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-zn1yzz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS  /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/src/4c793ed0a9-63c417bd2b.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_ALLOWED: "NO"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_REQUIRED: "NO"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_MMDEVICEAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-zn1yzz'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b8458.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.5+33de0b227 for .NET Framework
+        Build started 4/3/2024 10:16:28 AM.
+        
+        Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-zn1yzz\\cmTC_b8458.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_b8458.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-zn1yzz\\Debug\\".
+          Creating directory "cmTC_b8458.dir\\Debug\\cmTC_b8458.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_b8458.dir\\Debug\\cmTC_b8458.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_b8458.dir\\Debug\\cmTC_b8458.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b8458.dir\\Debug\\\\" /Fd"cmTC_b8458.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-zn1yzz\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-zn1yzz\\Debug\\cmTC_b8458.exe" /INCREMENTAL /ILK:"cmTC_b8458.dir\\Debug\\cmTC_b8458.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-zn1yzz/Debug/cmTC_b8458.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-zn1yzz/Debug/cmTC_b8458.lib" /MACHINE:X64  /machine:x64 cmTC_b8458.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_b8458.vcxproj -> C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-zn1yzz\\Debug\\cmTC_b8458.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_b8458.dir\\Debug\\cmTC_b8458.tlog\\unsuccessfulbuild".
+          Touching "cmTC_b8458.dir\\Debug\\cmTC_b8458.tlog\\cmTC_b8458.lastbuildstate".
+        Done Building Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-zn1yzz\\cmTC_b8458.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:04.70
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "cmake/FindSDL2.cmake:128 (FIND_PACKAGE)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:1084 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-qwyhrz"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-qwyhrz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS  /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/src/4c793ed0a9-63c417bd2b.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_ALLOWED: "NO"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_REQUIRED: "NO"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-qwyhrz'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b0871.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.5+33de0b227 for .NET Framework
+        Build started 4/3/2024 10:16:41 AM.
+        
+        Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-qwyhrz\\cmTC_b0871.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_b0871.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-qwyhrz\\Debug\\".
+          Creating directory "cmTC_b0871.dir\\Debug\\cmTC_b0871.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_b0871.dir\\Debug\\cmTC_b0871.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_b0871.dir\\Debug\\cmTC_b0871.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b0871.dir\\Debug\\\\" /Fd"cmTC_b0871.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-qwyhrz\\src.c"
+          src.c
+        C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-qwyhrz\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-qwyhrz\\cmTC_b0871.vcxproj]
+        Done Building Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-qwyhrz\\cmTC_b0871.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-qwyhrz\\cmTC_b0871.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-qwyhrz\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-qwyhrz\\cmTC_b0871.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:02.22
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "cmake/FindSDL2.cmake:128 (FIND_PACKAGE)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:1084 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-z2ojk4"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-z2ojk4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS  /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/src/4c793ed0a9-63c417bd2b.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_ALLOWED: "NO"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_REQUIRED: "NO"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-z2ojk4'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f59f3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.5+33de0b227 for .NET Framework
+        Build started 4/3/2024 10:16:44 AM.
+        
+        Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-z2ojk4\\cmTC_f59f3.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_f59f3.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-z2ojk4\\Debug\\".
+          Creating directory "cmTC_f59f3.dir\\Debug\\cmTC_f59f3.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f59f3.dir\\Debug\\cmTC_f59f3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_f59f3.dir\\Debug\\cmTC_f59f3.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f59f3.dir\\Debug\\\\" /Fd"cmTC_f59f3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-z2ojk4\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-z2ojk4\\Debug\\cmTC_f59f3.exe" /INCREMENTAL /ILK:"cmTC_f59f3.dir\\Debug\\cmTC_f59f3.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-z2ojk4/Debug/cmTC_f59f3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-z2ojk4/Debug/cmTC_f59f3.lib" /MACHINE:X64  /machine:x64 cmTC_f59f3.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-z2ojk4\\cmTC_f59f3.vcxproj]
+        Done Building Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-z2ojk4\\cmTC_f59f3.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-z2ojk4\\cmTC_f59f3.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-z2ojk4\\cmTC_f59f3.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.62
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Users/Deega/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "cmake/FindSDL2.cmake:128 (FIND_PACKAGE)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:1084 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-8193b3"
+      binary: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-8193b3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS  /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/src/4c793ed0a9-63c417bd2b.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_ALLOWED: "NO"
+      CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_REQUIRED: "NO"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-8193b3'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9a52f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.5+33de0b227 for .NET Framework
+        Build started 4/3/2024 10:16:47 AM.
+        
+        Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-8193b3\\cmTC_9a52f.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_9a52f.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-8193b3\\Debug\\".
+          Creating directory "cmTC_9a52f.dir\\Debug\\cmTC_9a52f.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_9a52f.dir\\Debug\\cmTC_9a52f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_9a52f.dir\\Debug\\cmTC_9a52f.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9a52f.dir\\Debug\\\\" /Fd"cmTC_9a52f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-8193b3\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-8193b3\\Debug\\cmTC_9a52f.exe" /INCREMENTAL /ILK:"cmTC_9a52f.dir\\Debug\\cmTC_9a52f.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-8193b3/Debug/cmTC_9a52f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/blds/openal-soft/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-8193b3/Debug/cmTC_9a52f.lib" /MACHINE:X64  /machine:x64 cmTC_9a52f.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-8193b3\\cmTC_9a52f.vcxproj]
+        Done Building Project "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-8193b3\\cmTC_9a52f.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-8193b3\\cmTC_9a52f.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\Deega\\source\\repos\\TheRaptureParadox\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-8193b3\\cmTC_9a52f.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:02.38
+        
+      exitCode: 1
+...

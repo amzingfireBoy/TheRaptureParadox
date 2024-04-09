@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\al\auxeffectslot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\al\buffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\al\effect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\al\effects\autowah.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\al\effects\chorus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\al\effects\compressor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\al\effects\convolution.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\al\effects\dedicated.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\al\effects\distortion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\al\effects\echo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\al\effects\equalizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\al\effects\fshifter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\al\effects\modulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\al\effects\null.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\al\effects\pshifter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\al\effects\reverb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\al\effects\vmorpher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\al\error.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\al\event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\al\extension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\al\filter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\al\listener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\al\source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\al\state.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\alc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\alu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\alconfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\bformatdec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\buffer_storage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\converter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\effectslot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\effects\autowah.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\effects\chorus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\effects\compressor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\effects\convolution.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\effects\dedicated.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\effects\distortion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\effects\echo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\effects\equalizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\effects\fshifter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\effects\modulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\effects\null.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\effects\pshifter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\effects\reverb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\effects\vmorpher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\helpers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\hrtf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\panning.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\uiddefs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\voice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\backends\base.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\backends\loopback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\backends\null.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\backends\wasapi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\backends\wave.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\core\ambdec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\core\bs2b.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\core\bsinc_tables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\core\cpu_caps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\core\devformat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\core\except.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\core\filters\biquad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\core\filters\nfc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\core\filters\splitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\core\fmt_traits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\core\fpu_ctrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\core\logging.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\core\mastering.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\core\uhjfilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\core\mixer\mixer_c.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\core\mixer\mixer_sse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\core\mixer\mixer_sse2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\core\mixer\mixer_sse3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\core\mixer\mixer_sse41.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\al\auxeffectslot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\al\buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\al\effect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\al\effects\effects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\al\event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\al\filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\al\listener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\al\source.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\alcmain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\alu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\alconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\alcontext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\async_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\bformatdec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\buffer_storage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\compat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\converter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\effectslot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\effects\base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\front_stablizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\hrtf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\inprogext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\voice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\voice_change.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\backends\base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\backends\loopback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\backends\null.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\backends\wasapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\alc\backends\wave.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\x86-windows-dbg\hrtf_default.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\core\ambdec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\core\ambidefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\core\bs2b.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\core\bsinc_defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\core\bsinc_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\core\bufferline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\core\cpu_caps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\core\devformat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\core\except.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\core\filters\biquad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\core\filters\nfc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\core\filters\splitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\core\fmt_traits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\core\fpu_ctrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\core\logging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\core\mastering.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\core\uhjfilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\core\mixer\defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\core\mixer\hrtfbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\core\mixer\hrtfdefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\include\AL\al.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\include\AL\alc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\include\AL\alext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\include\AL\efx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\x86-windows-dbg\CMakeFiles\238a756b2dd4d0bcbf198e82e66e8a3c\hrtf_default.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\resources\openal32.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C0ADAC6F-DAF9-3E6C-9ED1-9B03DF7F61B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{343F08F0-37D6-30D9-A045-6208B797506C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D3E5F690-5F30-3197-9DE6-1F6CB9BCC893}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

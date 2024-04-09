@@ -1,0 +1,10 @@
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/pkgs/libpng_x64-windows/debug/lib/libpng16d.lib
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/pkgs/libpng_x64-windows/debug/bin/libpng16d.dll
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/pkgs/libpng_x64-windows/debug/share/libpng/man/man3/libpng.3
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/pkgs/libpng_x64-windows/debug/share/libpng/man/man3/libpngpf.3
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/pkgs/libpng_x64-windows/debug/share/libpng/man/man5/png.5
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/pkgs/libpng_x64-windows/debug/lib/pkgconfig/libpng.pc
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/pkgs/libpng_x64-windows/debug/lib/pkgconfig/libpng16.pc
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/pkgs/libpng_x64-windows/debug/lib/libpng/libpng-targets.cmake
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/pkgs/libpng_x64-windows/debug/lib/libpng/libpng-targets-debug.cmake
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/vcpkg/pkgs/libpng_x64-windows/debug/lib/libpng/libpng-config.cmake

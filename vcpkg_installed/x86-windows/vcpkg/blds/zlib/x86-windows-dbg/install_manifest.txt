@@ -1,0 +1,2 @@
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/pkgs/zlib_x86-windows/debug/lib/zlibd.lib
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/pkgs/zlib_x86-windows/debug/bin/zlibd1.dll

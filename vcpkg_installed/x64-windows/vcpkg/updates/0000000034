@@ -1,0 +1,9 @@
+Package: sfml
+Version: 2.5.1
+Port-Version: 10
+Depends: freetype, libflac, libogg, libvorbis, openal-soft, stb
+Architecture: x64-windows
+Multi-Arch: same
+Abi: e2ca182b919b59bcbb437b1c9feae541488d10e07e865030da1001d56dc5e1c5
+Description: Simple and fast multimedia library
+Status: install ok half-installed

@@ -1,0 +1,9 @@
+Package: libflac
+Version: 1.3.3
+Port-Version: 5
+Depends: libogg
+Architecture: x86-windows
+Multi-Arch: same
+Abi: 68526440b154b17869f102abb3d9aaf86391e5db2f68d33ad1c7f3f21fa9f8d5
+Description: Library for manipulating FLAC files
+Status: install ok half-installed

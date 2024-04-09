@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\x86-windows\vcpkg\blds\openal-soft\x86-windows-dbg\CMakeFiles\670c67b9162c6bf16e452df8f3f170c8\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C0ADAC6F-DAF9-3E6C-9ED1-9B03DF7F61B2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

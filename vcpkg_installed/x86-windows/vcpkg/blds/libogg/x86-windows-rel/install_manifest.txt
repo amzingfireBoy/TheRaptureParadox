@@ -1,0 +1,10 @@
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/pkgs/libogg_x86-windows/lib/ogg.lib
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/pkgs/libogg_x86-windows/bin/ogg.dll
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/pkgs/libogg_x86-windows/include/ogg/config_types.h
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/pkgs/libogg_x86-windows/include/ogg/ogg.h
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/pkgs/libogg_x86-windows/include/ogg/os_types.h
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/pkgs/libogg_x86-windows/lib/cmake/Ogg/OggTargets.cmake
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/pkgs/libogg_x86-windows/lib/cmake/Ogg/OggTargets-release.cmake
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/pkgs/libogg_x86-windows/lib/cmake/Ogg/OggConfig.cmake
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/pkgs/libogg_x86-windows/lib/cmake/Ogg/OggConfigVersion.cmake
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/pkgs/libogg_x86-windows/lib/pkgconfig/ogg.pc

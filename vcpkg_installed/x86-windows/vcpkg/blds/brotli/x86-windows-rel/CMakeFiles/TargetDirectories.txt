@@ -1,0 +1,12 @@
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/blds/brotli/x86-windows-rel/CMakeFiles/brotlicommon.dir
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/blds/brotli/x86-windows-rel/CMakeFiles/brotlidec.dir
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/blds/brotli/x86-windows-rel/CMakeFiles/brotlienc.dir
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/blds/brotli/x86-windows-rel/CMakeFiles/brotlicommon-static.dir
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/blds/brotli/x86-windows-rel/CMakeFiles/brotlidec-static.dir
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/blds/brotli/x86-windows-rel/CMakeFiles/brotlienc-static.dir
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/blds/brotli/x86-windows-rel/CMakeFiles/brotli.dir
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/blds/brotli/x86-windows-rel/CMakeFiles/edit_cache.dir
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/blds/brotli/x86-windows-rel/CMakeFiles/rebuild_cache.dir
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/blds/brotli/x86-windows-rel/CMakeFiles/list_install_components.dir
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/blds/brotli/x86-windows-rel/CMakeFiles/install.dir
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/blds/brotli/x86-windows-rel/CMakeFiles/install/local.dir

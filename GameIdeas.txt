@@ -1,0 +1,24 @@
+MainGame:
+A rouge-lite dungeon crawler
+
+each character has 4 abilites that are preselected, and 2 equipment that is found while playing. Equipment has a primary and an optional secondary attack.
+
+You have a main lobby where you choose characters and abilities. Characters have four abilities to use at a time, but some of these abilites can be swapped for other abilities.
+From the main lobby you enter the dungeon, where you go through precedually gennerated levels the areas you go to are different for each character(?)
+
+In the lobby you can level up characters using points gained by playing the characters. The leveling will be in the form of a skill tree. 
+Leveling characters increases their power and can unlock new abilites and modify current ones. 
+
+Fully leveling a character unlocks their alpha variant.
+Alpha variants are simmilar to the original character, but have modified abilities and operate sligtly differently.
+
+In the dungeon, the characters progress through randomly generated levels. In these levels you find equipment that you equip.
+
+Equipment can be things like guns, swords, and other artifacts.
+A player can carry two equipment at a time and must swap between them. 
+Equipment must have an primary ability and optionally a secondary ability. 
+Equipment can have a reload ability.
+The player always starts with a basic pistol equipment, which only shoots and reloads. 
+
+While in the dungeon, enemies and other objects only move at full speed when the player is taking actions, if the player is standing still enemies and objects are slowed down or completely stopped.
+Objects will usually be completely stopped, but the extent to which enemies will be slowed or stopped is dependent on the character chosen.

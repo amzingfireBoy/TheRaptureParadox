@@ -1,0 +1,6 @@
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/blds/openal-soft/x86-windows-rel/CMakeFiles/common.dir
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/blds/openal-soft/x86-windows-rel/CMakeFiles/OpenAL.dir
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/blds/openal-soft/x86-windows-rel/CMakeFiles/ex-common.dir
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/blds/openal-soft/x86-windows-rel/CMakeFiles/INSTALL.dir
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/blds/openal-soft/x86-windows-rel/CMakeFiles/ALL_BUILD.dir
+C:/Users/Deega/source/repos/TheRaptureParadox/vcpkg_installed/x86-windows/vcpkg/blds/openal-soft/x86-windows-rel/CMakeFiles/ZERO_CHECK.dir

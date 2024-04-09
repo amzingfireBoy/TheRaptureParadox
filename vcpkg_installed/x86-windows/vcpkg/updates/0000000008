@@ -1,0 +1,7 @@
+Package: openal-soft
+Version: 1.21.1
+Architecture: x86-windows
+Multi-Arch: same
+Abi: 4c73f89690bfe4b55dea498ef95092860f679180b1bfabd85a9eb85869975a07
+Description: OpenAL Soft is an LGPL-licensed, cross-platform, software implementation of the OpenAL 3D audio API.
+Status: install ok half-installed

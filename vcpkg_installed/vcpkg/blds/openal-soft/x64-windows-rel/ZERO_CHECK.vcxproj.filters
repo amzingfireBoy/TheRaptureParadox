@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\vcpkg\blds\openal-soft\x64-windows-rel\CMakeFiles\51ed51bfb91026fb7217d3fef207d4c0\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\cmake\FindALSA.cmake">
+      <Filter>Buildsystem Input Files\cmake</Filter>
+    </None>
+    <None Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\cmake\FindAudioIO.cmake">
+      <Filter>Buildsystem Input Files\cmake</Filter>
+    </None>
+    <None Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\cmake\FindJACK.cmake">
+      <Filter>Buildsystem Input Files\cmake</Filter>
+    </None>
+    <None Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\cmake\FindOSS.cmake">
+      <Filter>Buildsystem Input Files\cmake</Filter>
+    </None>
+    <None Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\cmake\FindOpenSL.cmake">
+      <Filter>Buildsystem Input Files\cmake</Filter>
+    </None>
+    <None Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\cmake\FindPortAudio.cmake">
+      <Filter>Buildsystem Input Files\cmake</Filter>
+    </None>
+    <None Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\cmake\FindPulseAudio.cmake">
+      <Filter>Buildsystem Input Files\cmake</Filter>
+    </None>
+    <None Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\cmake\FindSDL2.cmake">
+      <Filter>Buildsystem Input Files\cmake</Filter>
+    </None>
+    <None Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\cmake\FindSoundIO.cmake">
+      <Filter>Buildsystem Input Files\cmake</Filter>
+    </None>
+    <None Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\config.h.in">
+      <Filter>Buildsystem Input Files</Filter>
+    </None>
+    <None Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\openal.pc.in">
+      <Filter>Buildsystem Input Files</Filter>
+    </None>
+    <None Include="C:\Users\Deega\source\repos\TheRaptureParadox\vcpkg_installed\vcpkg\blds\openal-soft\src\4c793ed0a9-63c417bd2b.clean\version.h.in">
+      <Filter>Buildsystem Input Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A6F45A92-223F-3AA5-B726-130346332940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F99E3F08-50C5-373B-B442-2AF7B1CC86FB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files">
+      <UniqueIdentifier>{EE246FF4-5800-3BEA-83E4-98BEB3BF0AC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\cmake">
+      <UniqueIdentifier>{3E9F6EE9-8DE1-3158-8AA3-C0F4BBEBA000}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
