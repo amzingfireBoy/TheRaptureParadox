@@ -31,5 +31,6 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="GameIdeas.txt" />
+    <Text Include="CharacterIdeas.txt" />
   </ItemGroup>
 </Project>

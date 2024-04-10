@@ -1,0 +1,47 @@
+
+
+
+
+System Name: The Swordfighter
+Name: 
+Desc: The Swordfighter is a melee skirmisher who can deal a lot of damage up close but is not effective with ranged weapons.
+	  While not good with ranged weapons, he can summon portals that allow him to move around the map and give him more range.
+Properties:
+	- 150 base health
+	- Time stop is 50% effective
+	- Guns used by The Swordfighter deal 30% less damage.
+
+Passive:
+	Dimension walker - 
+		Killing enemies with abilites will summon a portal at their location, these portals can be used to move around the map.
+		If a portal is spawned intersecting another portal, the older portal is destroyed and a damaging explosion is created at every portal.
+
+First Ability:
+	Dimension Sword - 
+		A melee attack in a slash infront of the character
+
+Second Ability: 
+	Sword skills - 
+		An ability with three activations, each activation dealing increasing damage
+		(1) Stab - A long melee attack forward
+		(2) Cleave - A wide attack forward
+		(3) Spin dash - The character does damage around them while moving forward, has a medium startup time.
+
+Third Ability:
+	Parry/Portal Hop - 
+		This ability normally enters the character in a stance where they will negate the next hit from an enemy and deal damage back if the attack was melee
+		If the character is touching a portal and the mouse is hovering over a second portal, the character will teleport to the location of the second portal
+		Teleporting to a portal reduces the cooldown of this ability.
+
+Fourth Ability: 
+	Cut through - 
+		Deal heavy damage infront of the character and summon a portal in the location. This attack can summon two portals if it kills an enemy.
+		Killing an enemy with this move will summon two portals and cause a portal detonation, leaving the portal summoned by the enemy left behind.
+
+
+
+
+System Name: The Alchemist
+Name: Antihuman
+Desc: A highly proficient alchemist
+		

@@ -142,6 +142,7 @@
     <ClInclude Include="UserInterface.h" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="CharacterIdeas.txt" />
     <Text Include="GameIdeas.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

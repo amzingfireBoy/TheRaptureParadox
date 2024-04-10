@@ -22,3 +22,4 @@ The player always starts with a basic pistol equipment, which only shoots and re
 
 While in the dungeon, enemies and other objects only move at full speed when the player is taking actions, if the player is standing still enemies and objects are slowed down or completely stopped.
 Objects will usually be completely stopped, but the extent to which enemies will be slowed or stopped is dependent on the character chosen.
+This effect is called TimeStop
