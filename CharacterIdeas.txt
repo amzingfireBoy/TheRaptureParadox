@@ -6,6 +6,7 @@ System Name: The Swordfighter
 Name: 
 Desc: The Swordfighter is a melee skirmisher who can deal a lot of damage up close but is not effective with ranged weapons.
 	  While not good with ranged weapons, he can summon portals that allow him to move around the map and give him more range.
+Story: The greatest swordsman hailing from a dying universe, he weilds a sword that allows him to cut through the fabric of reality and make holes to other locations.
 Properties:
 	- 150 base health
 	- Time stop is 50% effective
@@ -43,5 +44,15 @@ Fourth Ability:
 
 System Name: The Alchemist
 Name: Antihuman
-Desc: A highly proficient alchemist
+Desc: 
+
+Story: A highly proficent Alchemist, they can create the best potions for any purpose. A while ago they became obsessed with not being human, so through
+	   alchemical means, they changed themselves to something hardly resembling a human. While now have become less of a theat to others, they still have
+	   bouts of madness. Few know what his body looks like under his cloak. No one knows what his face looks like
+
+Passive:
+	Beast within - 
 		
+
+First Ability:
+	
