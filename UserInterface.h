@@ -1,5 +1,7 @@
 #pragma once
 
+using std::string;
+
 class UserInterface {
 public:
 
